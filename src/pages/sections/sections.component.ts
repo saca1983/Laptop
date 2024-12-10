@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-sections',
@@ -8,5 +9,11 @@ import { Component } from '@angular/core';
   styleUrl: './sections.component.css'
 })
 export class SectionsComponent {
+
+  constructor(private router: Router) {}
+
+  onLogin() {
+    this.router.navigate(['/state']);
+  }
 
 }
