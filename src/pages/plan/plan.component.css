@@ -1,0 +1,236 @@
+.title h1{
+    position: absolute;
+    font-family: 'Inter';
+    font-size: 30px;
+    top: 10px;
+    left: 70px;
+}
+
+.square{
+    position: absolute;
+    top: 80px;
+    left: 60px;
+    width: 1400px;
+    height: 290px; 
+    background-color: #fff; 
+    box-shadow: 0 4px 8px #00000033;
+    border-radius: 15px; 
+    padding: 20px; 
+    box-sizing: border-box;
+}
+
+.square h1{
+    position: absolute;
+    font-family: 'Inter';
+    font-size: 20px;
+    top: 4px;
+    left: 70px;
+}
+
+.square2{
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    width: 1290px;
+    height: 55px; 
+    background-color: #F0FDF4; 
+    border-radius: 10px; 
+    padding: 20px; 
+    box-sizing: border-box;
+}
+
+.square2 p{
+    position: absolute;
+    font-family: 'Quicksand';
+    font-size: 20px;
+    top: -3px;
+    left: 70px;
+}
+
+.square2 img{
+    width: 22px;
+    height: 22px; 
+    position: absolute;
+    top: 20px;
+    left: 30px; 
+}
+
+.square3{
+    position: absolute;
+    top: 130px;
+    left: 50px;
+    width: 1290px;
+    height: 55px; 
+    background-color: #F0FDF4; 
+    border-radius: 10px; 
+    padding: 20px; 
+    box-sizing: border-box;
+}
+
+.square3 p{
+    position: absolute;
+    font-family: 'Quicksand';
+    font-size: 20px;
+    top: -3px;
+    left: 70px;
+}
+
+.square3 img{
+    width: 22px;
+    height: 22px; 
+    position: absolute;
+    top: 20px;
+    left: 30px; 
+}
+
+.square4{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    width: 1290px;
+    height: 55px; 
+    background-color: #F0FDF4; 
+    border-radius: 10px; 
+    padding: 20px; 
+    box-sizing: border-box;
+}
+
+.square4 p{
+    position: absolute;
+    font-family: 'Quicksand';
+    font-size: 20px;
+    top: -3px;
+    left: 70px;
+}
+
+.square4 img{
+    width: 22px;
+    height: 22px; 
+    position: absolute;
+    top: 20px;
+    left: 30px; 
+}
+
+.square5{
+    position: absolute;
+    top: 310px;
+    left: 1px;
+    width: 1400px;
+    height: 290px; 
+    background-color: #fff; 
+    box-shadow: 0 4px 8px #00000033;
+    border-radius: 15px; 
+    padding: 20px; 
+    box-sizing: border-box;
+}
+
+.square5 h1{
+    position: absolute;
+    font-family: 'Inter';
+    font-size: 20px;
+    top: 5px;
+    left: 70px;
+}
+
+.square6{
+    position: absolute;
+    top: 60px;
+    left: 50px;
+    width: 1290px;
+    height: 55px; 
+    background-color: #FEF2F2; 
+    border-radius: 10px; 
+    padding: 20px; 
+    box-sizing: border-box;
+}
+
+.square6 p{
+    position: absolute;
+    font-family: 'Quicksand';
+    font-size: 20px;
+    top: -3px;
+    left: 70px;
+}
+
+.square6 img{
+    width: 22px;
+    height: 22px; 
+    position: absolute;
+    top: 20px;
+    left: 30px; 
+}
+
+.square7{
+    position: absolute;
+    top: 130px;
+    left: 50px;
+    width: 1290px;
+    height: 55px; 
+    background-color: #FEF2F2; 
+    border-radius: 10px; 
+    padding: 20px; 
+    box-sizing: border-box;
+}
+
+.square7 p{
+    position: absolute;
+    font-family: 'Quicksand';
+    font-size: 20px;
+    top: -3px;
+    left: 70px;
+}
+
+.square7 img{
+    width: 22px;
+    height: 22px; 
+    position: absolute;
+    top: 20px;
+    left: 30px; 
+}
+
+.square8{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    width: 1290px;
+    height: 55px; 
+    background-color: #FEF2F2; 
+    border-radius: 10px; 
+    padding: 20px; 
+    box-sizing: border-box;
+}
+
+.square8 p{
+    position: absolute;
+    font-family: 'Quicksand';
+    font-size: 20px;
+    top: -3px;
+    left: 70px;
+}
+
+.square8 img{
+    width: 22px;
+    height: 22px; 
+    position: absolute;
+    top: 20px;
+    left: 30px; 
+}
+
+.button{
+    position: absolute;
+    background-color: #3B82F6;
+    box-shadow: 0 4px 8px #00000033;
+    color: #fff;
+    border: none;
+    border-radius: 13px;
+    padding: 10px 500px;
+    top: 320px;
+    left: 90px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer; 
+    font-family: 'Quicksand';
+    width: auto;
+    display: inline-block;
+    transition: all 0.100s ease;
+}

@@ -6,12 +6,11 @@ import { SectionsComponent } from '../pages/sections/sections.component';
 import { StateComponent } from '../pages/state/state.component';
 import { PlanComponent } from '../pages/plan/plan.component';
 import { RecoveryComponent } from '../pages/recovery/recovery.component';
-import { AccountComponent } from '../pages/account/account.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, HomeComponent, LoginComponent, SectionsComponent, StateComponent, PlanComponent, RecoveryComponent, AccountComponent],
+  imports: [RouterOutlet, HomeComponent, LoginComponent, SectionsComponent, StateComponent, PlanComponent, RecoveryComponent ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

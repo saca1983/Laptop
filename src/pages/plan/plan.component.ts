@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-plan',
@@ -8,5 +9,11 @@ import { Component } from '@angular/core';
   styleUrl: './plan.component.css'
 })
 export class PlanComponent {
+
+  constructor(private router: Router) {}
+
+  onLogin() {
+    this.router.navigate(['/recovery']);
+  }
 
 }
